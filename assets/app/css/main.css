@@ -44,7 +44,7 @@ img {
 .m-row__grid::after {
     content: "";
     clear: both;
-    display: table;
+    display: grid;
 }
 .m-card .m-card__header {
     margin: 0 auto;
