@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pokedex</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="assets/app/css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="m-card">
+                <div class="m-card__header">
+                    <div class="m-card__header__title">
+                        <h1">Pokedex_</a>
+                    </div>
+                </div>
+                <div class="m-card__body">
+                    <div class="m-row__grid">
+                        <div class="m-grid__5">
+                            <div class="m-card__body__title">
+                                <h2 class="pk-name"></h2>
+                            </div>
+                            <div class="m-card__body_content">
+                                <img class="m-card__image pk-image">
+                            </div>
+                        </div>
+                        <div class="m-grid__5">
+                            <div class="m-card__description">
+                                <div class="m-row__grid">
+                                    <div class="m-grid__5">
+                                        <div class="m-detail">
+                                            <div class="m-grid__10 m-grid__s__5">
+                                                <h4>No.</h4>
+                                            </div>
+                                            <div class="m-grid__10 m-grid__s__5">
+                                                <span class="pk-description-no"></span>
+                                            </div>                                                
+                                        </div>
+                                    </div>
+                                    <div class="m-grid__5">
+                                        <div class="m-detail">
+                                            <div class="m-grid__10 m-grid__s__5">
+                                                <h4>Level.</h4>
+                                            </div>
+                                            <div class="m-grid__10 m-grid__s__5">
+                                                <span class="pk-description-level"></span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="m-row__grid">
+                                    <div class="m-grid__5">
+                                        <div class="m-detail">
+                                            <div class="m-grid__10 m-grid__s__5">
+                                                <h4>Type.</h4>
+                                            </div>
+                                            <div class="m-grid__10 m-grid__s__5">
+                                                <span class="pk-description-type"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="m-grid__5">
+                                        <div class="m-detail">
+                                            <div class="m-grid__10 m-grid__s__5">
+                                                <h4>Ability.</h4>
+                                            </div>
+                                            <div class="m-grid__10 m-grid__s__5">
+                                                <span class="pk-description-ability"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="m-row__grid">
+                                    <div class="m-grid__5">
+                                        <div class="m-detail">
+                                            <div class="m-grid__10 m-grid__s__5">
+                                                <h4>Height.</h4>
+                                            </div>
+                                            <div class="m-grid__10 m-grid__s__5">
+                                                <span class="pk-description-height"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="m-grid__5">
+                                        <div class="m-detail">
+                                            <div class="m-grid__10 m-grid__s__5">
+                                                <h4>Weight.</h4>
+                                            </div>
+                                            <div class="m-grid__10 m-grid__s__5">
+                                                <span class="pk-description-weight"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-card__footer">
+                    <div class="m-row__grid">
+                        <div class="m-grid__3">
+                            <h3>Others</h3>
+                        </div>
+                        <div class="m-grid__7">
+                            <ul id="list-pokemons" class="m-list"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="src/resources/Models/PokemonModel.js"></script>
+        <script src="assets/app/js/index.js"></script>
+    </body>
+</html>
