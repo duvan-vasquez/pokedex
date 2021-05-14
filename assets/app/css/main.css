@@ -41,6 +41,9 @@ img {
     height: 70px;
     width: auto;
 }
+.m-list__li__img:hover {
+    filter: none;
+}
 .m-row__grid::after {
     content: "";
     clear: both;
@@ -53,7 +56,7 @@ img {
     justify-content: left;
     width: 100%;
     text-align: left;
-    background: #777777;
+    background: #37505d;
     padding: 10px 0px;
 }
 .m-card__header__title {
@@ -62,12 +65,13 @@ img {
     padding: 0px 15px;
 }
 .m-card__body {
-    background: #aeaeae;
+    background: #ffffff;
     padding: 20px 0px 20px 0px;
     width: 100%;
 }
 .m-card__body__title {
-    background: #ddd;
+    background: #37505d;
+    color: #e2e2e2;
     border-radius: 0.6em;
 }
 .m-card__body__title, .m-card__body_content {
@@ -84,7 +88,8 @@ img {
 .m-card__description {
     width: 70%;
     margin: 0 auto;
-    background: #FFFFFF;
+    border: 1px solid #bfbfbf;
+    background: #f7f7f7;
     border-radius: 0.6em;
     padding-bottom: 15px;
 }
