@@ -60,7 +60,7 @@ class Pokemons {
         let img = null;
         item = document.createElement('li');
         item.setAttribute('data-id', pokemon._id);
-        item.setAttribute('class', 'm-list__li m-grid__3 m-grid__s__5')
+        item.setAttribute('class', 'm-list__li m-grid__3 m-grid__s__4')
         item.addEventListener('click', this.onPokemonSelect);
         img = new Image();
         img.setAttribute('class', 'm-list__li__img');
